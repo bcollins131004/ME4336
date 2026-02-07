@@ -13,20 +13,20 @@ Due End Week 1 (2nd Feb):
 Due End Week 2 (9th Feb):
 - ⬜ Submit Work Log 2
 - ⬜ Submit Progress Report (Wks 1-2)
-- ✅ Online Profile - Task 2
+- ✅ Online Profile - Task 2  
   
 Due End Week 3 (16th Feb):
 - ⬜ Submit Work Log 3
-- ⬜ Online Profile - Task 3
+- ⬜ Online Profile - Task 3  
   
 Due End Week 4 (23rd Feb):
 - ⬜ Submit Work Log 4
 - ⬜ Submit Progress Report (Wks 3-4)
-- ⬜ Online Profile - Task 4
+- ⬜ Online Profile - Task 4  
   
 Due End Week 5 (2nd Mar):
 - ⬜ Submit Work Log 5
-- ⬜ Online Profile - Task 5
+- ⬜ Online Profile - Task 5  
   
 Due End Week 6 (9th Mar):
 - ⬜ Submit Work Log 6
@@ -34,27 +34,52 @@ Due End Week 6 (9th Mar):
 - ⬜ Online Profile - Task 6
 
 Due End Week 7 (16th Mar):
-- ⬜ Online Profile - Task 7
+- ⬜ Online Profile - Task 7   
    
 Due End Week 8 (23rd Mar): 
 - ⬜ Submit Work Log 7
-- ⬜ Submit Progress Report (Wks 7-8)
+- ⬜ Submit Progress Report (Wks 7-8)  
    
 Due End Week 9 (7th Apr):
-- ⬜ Submit Work Log 8
+- ⬜ Submit Work Log 8   
    
 Due End Week 10 (13th Apr): 
 - ⬜ Submit Work Log 9
 - ⬜ Submit Progress Report (Wks 9-10)
-- ⬜ Online Profile - Task 8
+- ⬜ Online Profile - Task 8   
    
 Due End Week 11 (20th Apr): 
-- ⬜ Submit Work Log 10
+- ⬜ Submit Work Log 10   
    
 Due End Week 12 (27th Apr): 
 - ⬜ Submit Work Log 11
-- ⬜ Submit Progress Report (Wks 11-12)
+- ⬜ Submit Progress Report (Wks 11-12)   
    
 Due End Week 13 (4th May): 
 - ⬜ Submit Work Log 12
    
+
+## Placement Experience Overview
+
+| Week Range | Focus Area | Skills Developed |
+|-----------|-----------|-----------------|
+| Weeks 1-2 | Robotics & PLC Fundamentals | Ladder Logic, Robot Programming |
+| Weeks 3-6 | SCADA Systems & HMI Design | Ignition Software, Process Control |
+| Weeks 7-13 | Advanced Integration & Optimization | System Integration, Problem Solving |
+
+## Key Learning Objectives
+
+1. Develop advanced controls engineering expertise
+   - Master PLC programming in various platforms
+   - Understand industrial automation principles
+   - Learn real-world troubleshooting techniques
+
+2. Build professional competencies
+   - Strengthen communication and documentation skills
+   - Enhance project management capabilities
+   - Develop collaboration and team working abilities
+
+3. Prepare for engineering career
+   - Gain industry-relevant certifications and knowledge
+   - Network with engineering professionals
+   - Understand career pathways in automation engineering
