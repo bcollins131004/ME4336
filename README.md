@@ -11,8 +11,8 @@ Due End Week 1 (2nd Feb):
 - ✅ Online Profile - Task 1
 
 Due End Week 2 (9th Feb):
-- ⬜ Submit Work Log 2
-- ⬜ Submit Progress Report (Wks 1-2)
+- ✅ Submit Work Log 2
+- ✅ Submit Progress Report (Wks 1-2)
 - ✅ Online Profile - Task 2  
   
 Due End Week 3 (16th Feb):
