@@ -57,3 +57,32 @@ Due End Week 12 (27th Apr):
    
 Due End Week 13 (4th May): 
 - ⬜ Submit Work Log 12
+
+
+   
+
+## Placement Experience Overview
+
+| Week Range | Focus Area | Skills Developed |
+|-----------|-----------|-----------------|
+| Weeks 1-2 | Robotics & PLC Fundamentals | Ladder Logic, Robot Programming |
+| Weeks 3-6 | SCADA Systems & HMI Design | Ignition Software, Process Control |
+| Weeks 7-13 | Advanced Integration & Optimization | System Integration, Problem Solving |
+
+## Key Learning Objectives
+
+1. Develop advanced controls engineering expertise
+   - Master PLC programming in various platforms
+   - Understand industrial automation principles
+   - Learn real-world troubleshooting techniques
+
+2. Build professional competencies
+   - Strengthen communication and documentation skills
+   - Enhance project management capabilities
+   - Develop collaboration and team working abilities
+
+3. Prepare for engineering career
+   - Gain industry-relevant certifications and knowledge
+   - Network with engineering professionals
+   - Understand career pathways in automation engineering
+
