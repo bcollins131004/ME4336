@@ -16,8 +16,8 @@ Due End Week 2 (9th Feb):
 - ✅ Online Profile - Task 2  
   
 Due End Week 3 (16th Feb):
-- ⬜ Submit Work Log 3
-- ⬜ Online Profile - Task 3  
+- ✅ Submit Work Log 3
+- ✅ Online Profile - Task 3  
   
 Due End Week 4 (23rd Feb):
 - ⬜ Submit Work Log 4
@@ -63,26 +63,28 @@ Due End Week 13 (4th May):
 
 ## Placement Experience Overview
 
-| Week Range | Focus Area | Skills Developed |
+| Time Range | Focus Site | Result |
 |-----------|-----------|-----------------|
-| Weeks 1-2 | Robotics & PLC Fundamentals | Ladder Logic, Robot Programming |
-| Weeks 3-6 | SCADA Systems & HMI Design | Ignition Software, Process Control |
-| Weeks 7-13 | Advanced Integration & Optimization | System Integration, Problem Solving |
+| Month 1 (March) | PFS2 Page | Create waste site documenting waste on PFS2 |
+| Month 2 (April) | CAM CELL Page | Create pages showing OEE and losses on CAM Cell |
+| Month 3 (May) | PFS5, PFS2, CAM CELL | Testing and refinement of all sites |
 
-## Key Learning Objectives
+## Project Key Notes
 
-1. Develop advanced controls engineering expertise
-   - Master PLC programming in various platforms
-   - Understand industrial automation principles
-   - Learn real-world troubleshooting techniques
+1. PFS2 Site
+   - Focussing on waste
+   - Ensuring that data is accurate
+   - TA and spiking reasons.
+   - Identify causes of waste spiking, audit trail to suggest edits.
 
-2. Build professional competencies
-   - Strengthen communication and documentation skills
-   - Enhance project management capabilities
-   - Develop collaboration and team working abilities
+2. CAM Cell
+   - Isolated pages along with individual OEE's
+   - Perfect one and copy and paste
+   - Accumulated OEE and metrics for cell. highest costs to OEE
 
-3. Prepare for engineering career
-   - Gain industry-relevant certifications and knowledge
-   - Network with engineering professionals
-   - Understand career pathways in automation engineering
+3. Testing/Refinement/Upgrades
+   - OEE/Data/Metric Editing
+   - Login services
+   - Ensure data being calculated is correct and accurate
+   - any bugs - null last error on full error log.
 
