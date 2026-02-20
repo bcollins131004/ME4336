@@ -1,5 +1,6 @@
 # ME4336
 
+<img width="226" height="300" alt="image" src="https://github.com/user-attachments/assets/c93a4243-1729-461a-a22a-0b007e77403b" />
 
 This repository is for college module Enhanced Placement Engineering Portfolio [ME4336]
 
