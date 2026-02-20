@@ -23,9 +23,9 @@ Due End Week 3 (16th Feb):
 - ✅ Online Profile - Task 3  
   
 Due End Week 4 (23rd Feb):
-- ⬜ Submit Work Log 4
-- ⬜ Submit Progress Report (Wks 3-4)
-- ⬜ Online Profile - Task 4  
+- ✅ Submit Work Log 4
+- ✅ Submit Progress Report (Wks 3-4)
+- ✅ Online Profile - Task 4  
   
 Due End Week 5 (2nd Mar):
 - ⬜ Submit Work Log 5
