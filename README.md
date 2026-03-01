@@ -6,6 +6,8 @@ This repository is for college module Enhanced Placement Engineering Portfolio [
 
 I am a third year mechatronic engineering student in University of Limerick (See crest above). I am currently on placement in Hollister ULC, Ballina plant, as a Student Controls Engineer. I am focussing largely on robotics, PLC ladder code and Ignition SCADA systems, gaining great insight and knowledge into these fields. Throughout this placement I am also keeping my college education flowing by undertaking online modules throughout the semester, teaching me about things such as Lean Tools and Critical thinking, but also more pratical topics such as Robotic Systems and Cyber Security. The module I am creating this repository is called "Enhanced Placement Engineering Portfolio 2". This module requires me to keep a portfolio of my placement for the second semester of this year, consisting of work logs and project updates along with more liberal doccuments relating to my time on placement.
 
+[View my CV](CV)
+
 
 ## TO DO...
 
@@ -90,4 +92,3 @@ Due End Week 13 (4th May):
    - Login services
    - Ensure data being calculated is correct and accurate
    - any bugs - null last error on full error log.
-
