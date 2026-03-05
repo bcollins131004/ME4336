@@ -25,7 +25,7 @@ I am a very hard-working individual with a wide-ranging skillset, I pick up new 
 |-----------|-----------|-----------------|
 | 10/06/2017 - Summer 2023 | Collins Plastics, Bunree Industrial Estate, Ardnaree, Ballina, Co Mayo, Ireland | Working in teams, Planning projects, Dealing with customers, Planning job lists, Operating advanced machinery, Problem solving, Operating a forklift. |
 | 17/06/23 - 01/08/23 | Heyday Hostel, Dillions Terrace, Ballina, Co Mayo, Ireland | Meeting Guests, Organising check-ins, Organising fobs and keys, Maintaining an organised and friendly environment. |
-| 27/05/25 – 27/05/26 | Hollister ULC | PLC coding, Scada systems, Ignition, HMII design and creation, Robitcs (Fanuc, ABB, Epson).|
+| 27/05/25 – 27/05/26 | Hollister ULC | PLC coding, Scada systems, Ignition, HMII design and creation, Robotics (Fanuc, ABB, Epson).|
 
 
 ### HOBBIES AND INTERESTS
