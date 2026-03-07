@@ -1,10 +1,13 @@
 # MEMORANDUM 
+-------------------------
+<img width="226" height="300" alt="image" src="https://github.com/user-attachments/assets/c93a4243-1729-461a-a22a-0b007e77403b" />
+
 ## To: Petar Trslic, Professor at University of Limerick 
 ## From: Colm Harrington, Calum Breen, Brendan Collins 
 ## Date: 22/10/2025 
 
 
--------------------------
+
 ### Subject: The Feasibility of Purchasing Food on Campus 
 The expensive pricing of all food on campus, both in shops and restaurants, is causing 
 increasing dissatisfaction among students. This report aims to outline the reasons behind this 
