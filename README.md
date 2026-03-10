@@ -31,12 +31,12 @@ Due End Week 5 (2nd Mar):
 - ✅ Online Profile - Task 5  
   
 Due End Week 6 (9th Mar):
-- ⬜ Submit Work Log 6
-- ⬜ Submit Progress Report (Wks 5-6)
-- ⬜ Online Profile - Task 6
+- ✅ Submit Work Log 6
+- ✅ Submit Progress Report (Wks 5-6)
+- ✅ Online Profile - Task 6
 
 Due End Week 7 (16th Mar):
-- ⬜ Online Profile - Task 7   
+- ✅ Online Profile - Task 7   
    
 Due End Week 8 (23rd Mar): 
 - ⬜ Submit Work Log 7
