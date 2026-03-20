@@ -39,8 +39,8 @@ Due End Week 7 (16th Mar):
 - ✅ Online Profile - Task 7   
    
 Due End Week 8 (23rd Mar): 
-- ⬜ Submit Work Log 7
-- ⬜ Submit Progress Report (Wks 7-8)  
+- ✅ Submit Work Log 7
+- ✅ Submit Progress Report (Wks 7-8)  
    
 Due End Week 9 (7th Apr):
 - ⬜ Submit Work Log 8   
