@@ -43,12 +43,12 @@ Due End Week 8 (23rd Mar):
 - ✅ Submit Progress Report (Wks 7-8)  
    
 Due End Week 9 (7th Apr):
-- ⬜ Submit Work Log 8   
+- ✅ Submit Work Log 8   
    
 Due End Week 10 (13th Apr): 
-- ⬜ Submit Work Log 9
-- ⬜ Submit Progress Report (Wks 9-10)
-- ⬜ Online Profile - Task 8   
+- ✅ Submit Work Log 9
+- ✅ Submit Progress Report (Wks 9-10)
+- ✅ Online Profile - Task 8   
    
 Due End Week 11 (20th Apr): 
 - ⬜ Submit Work Log 10   
