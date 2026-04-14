@@ -1,7 +1,7 @@
 # ME4336
 
 <img width="226" height="300" alt="image" src="https://github.com/user-attachments/assets/c93a4243-1729-461a-a22a-0b007e77403b" />
-
+<img width="226" height="300" alt="image" src="https://github.com/user-attachments/assets/c93a4243-1729-461a-a22a-0b007e77403b" />
 This repository is for college module Enhanced Placement Engineering Portfolio [ME4336]
 
 I am a third year mechatronic engineering student in University of Limerick (See crest above). I am currently on placement in Hollister ULC, Ballina plant, as a Student Controls Engineer. I am focussing largely on robotics, PLC ladder code and Ignition SCADA systems, gaining great insight and knowledge into these fields. Throughout this placement I am also keeping my college education flowing by undertaking online modules throughout the semester, teaching me about things such as Lean Tools and Critical thinking, but also more pratical topics such as Robotic Systems and Cyber Security. You can see examples of previous assignments undertaken this year such as a white paper [here](White_Paper.md) and a Feasbility Report about expensive food on campus [here](fs_report.md). The module I am creating this repository for is called "Enhanced Placement Engineering Portfolio 2". This module requires me to keep a portfolio of my placement for the second semester of this year, consisting of work logs and project updates along with more liberal doccuments relating to my time on placement. You can veiw my CV [here](CV.md).
