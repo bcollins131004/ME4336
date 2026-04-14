@@ -10,56 +10,56 @@ I am a third year mechatronic engineering student in University of Limerick (See
 ## TO DO...
 
 Due End Week 1 (2nd Feb):
-- ✅ Submit Work Log 1
-- ✅ Online Profile - Task 1
+- [x] Submit Work Log 1
+- [x] Online Profile - Task 1
 
 Due End Week 2 (9th Feb):
-- ✅ Submit Work Log 2
-- ✅ Submit Progress Report (Wks 1-2)
-- ✅ Online Profile - Task 2  
+- [x] Submit Work Log 2
+- [x] Submit Progress Report (Wks 1-2)
+- [x] Online Profile - Task 2  
   
 Due End Week 3 (16th Feb):
-- ✅ Submit Work Log 3
-- ✅ Online Profile - Task 3  
+- [x] Submit Work Log 3
+- [x] Online Profile - Task 3  
   
 Due End Week 4 (23rd Feb):
-- ✅ Submit Work Log 4
-- ✅ Submit Progress Report (Wks 3-4)
-- ✅ Online Profile - Task 4  
+- [x] Submit Work Log 4
+- [x] Submit Progress Report (Wks 3-4)
+- [x] Online Profile - Task 4  
   
 Due End Week 5 (2nd Mar):
-- ✅ Submit Work Log 5
-- ✅ Online Profile - Task 5  
+- [x] Submit Work Log 5
+- [x] Online Profile - Task 5  
   
 Due End Week 6 (9th Mar):
-- ✅ Submit Work Log 6
-- ✅ Submit Progress Report (Wks 5-6)
-- ✅ Online Profile - Task 6
+- [x] Submit Work Log 6
+- [x] Submit Progress Report (Wks 5-6)
+- [x] Online Profile - Task 6
 
 Due End Week 7 (16th Mar):
-- ✅ Online Profile - Task 7   
+- [x] Online Profile - Task 7   
    
 Due End Week 8 (23rd Mar): 
-- ✅ Submit Work Log 7
-- ✅ Submit Progress Report (Wks 7-8)  
+- [x] Submit Work Log 7
+- [x] Submit Progress Report (Wks 7-8)  
    
 Due End Week 9 (7th Apr):
-- ✅ Submit Work Log 8   
+- [x] Submit Work Log 8   
    
 Due End Week 10 (13th Apr): 
-- ✅ Submit Work Log 9
-- ✅ Submit Progress Report (Wks 9-10)
-- ✅ Online Profile - Task 8   
+- [x] Submit Work Log 9
+- [x] Submit Progress Report (Wks 9-10)
+- [x] Online Profile - Task 8   
    
 Due End Week 11 (20th Apr): 
-- ⬜ Submit Work Log 10   
+- [ ] Submit Work Log 10   
    
 Due End Week 12 (27th Apr): 
-- ⬜ Submit Work Log 11
-- ⬜ Submit Progress Report (Wks 11-12)   
+- [ ] Submit Work Log 11
+- [ ] Submit Progress Report (Wks 11-12)   
    
 Due End Week 13 (4th May): 
-- ⬜ Submit Work Log 12
+- [ ] Submit Work Log 12
 
 
    
