@@ -69,6 +69,7 @@ I am a third year mechatronic engineering student in University of Limerick (See
 | Progress Reports | Progress reports uploaded every 2 weeks | [Progress Reports Project Page](https://github.com/users/bcollins131004/projects/4) |
 | Automated Plant Watering System | Full Repository for automated plant watering system project | [Automated Plant Pot Watering System Repository Page](https://github.com/bcollins131004/Automatic_Plant_Watering_System.git) |
    
+I have also added in an action on the site to email alerts to me when a task is due within 3 days.
 
 ## Placement Experience Overview
 
