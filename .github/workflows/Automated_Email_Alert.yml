@@ -19,7 +19,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const threeDaysFromNow = new Date();
-            threeDaysFromNow.setDate(threeDaysFromNow.getDate() + 3);
+            threeDaysFromNow.setDate(threeDaysFromNow.getDate() + 7);
             const today = new Date();
             today.setHours(0, 0, 0, 0);
             threeDaysFromNow.setHours(23, 59, 59, 999);
