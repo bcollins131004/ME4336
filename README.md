@@ -61,7 +61,13 @@ I am a third year mechatronic engineering student in University of Limerick (See
 #### Due End Week 13 (4th May): 
 - [ ] [Submit Work Log 12](https://github.com/bcollins131004/ME4336/issues/13)
 
+## Overview of Repo
 
+| Project | Purpose | Link |
+|-----------|-----------|-----------------|
+| Work Logs | Providing Work logs for every work week | Create waste site documenting waste on PFS2 |
+| Progress Reports | Progress reports uploaded every 2 weeks | Create pages showing OEE and losses on CAM Cell |
+| Automated Plant Watering System | Full Repository for automated plant watering system project | Testing and refinement of all sites |
    
 
 ## Placement Experience Overview
