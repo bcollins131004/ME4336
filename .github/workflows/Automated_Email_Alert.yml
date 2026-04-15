@@ -15,81 +15,108 @@ jobs:
 
     steps:
       - name: Check Classic Projects for Upcoming Deadlines
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const threeDaysFromNow = new Date();
             threeDaysFromNow.setDate(threeDaysFromNow.getDate() + 3);
             const today = new Date();
             
-            // Get all projects in the repo
-            const projectsResponse = await github.rest.projects.listForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open'
-            });
-            
-            // Filter for Work Log and Progress reports
-            const targetProjects = projectsResponse.data.filter(p => 
-              p.name === 'Work Log' || p.name === 'Progress reports'
-            );
-            
-            console.log(`Found ${targetProjects.length} target projects`);
-            
-            const upcomingDeadlines = [];
-            
-            for (const project of targetProjects) {
-              // Get columns for the project
-              const columnsResponse = await github.rest.projects.listColumns({
-                project_id: project.id
-              });
-              
-              // Get all cards in all columns
-              for (const column of columnsResponse.data) {
-                const cardsResponse = await github.rest.projects.listCards({
-                  column_id: column.id,
-                  archived_state: 'not_archived'
+            try {
+              // Get all projects in the repo
+              let projectsResponse;
+              try {
+                projectsResponse = await github.rest.projects.listForRepo({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  state: 'open'
                 });
-                
-                for (const card of cardsResponse.data) {
-                  if (card.content_url) {
-                    // Get the issue details
-                    const issueUrl = card.content_url;
-                    const issueResponse = await github.request(`GET ${issueUrl}`);
-                    const issue = issueResponse.data;
-                    
-                    // Check if issue has a deadline in custom fields or due_date
-                    if (issue.due_date) {
-                      const dueDate = new Date(issue.due_date);
-                      if (dueDate >= today && dueDate <= threeDaysFromNow) {
-                        upcomingDeadlines.push({
-                          title: issue.title,
-                          url: issue.html_url,
-                          dueDate: dueDate.toLocaleDateString(),
-                          project: project.name
-                        });
-                      }
-                    }
-                  }
+              } catch (error) {
+                if (error.status === 404) {
+                  console.log('No projects found or projects endpoint not available');
+                  projectsResponse = { data: [] };
+                } else {
+                  throw error;
                 }
               }
-            }
-            
-            // Create notification issue if deadlines found
-            if (upcomingDeadlines.length > 0) {
-              const body = upcomingDeadlines
-                .map(d => `- [${d.title}](${d.url}) (Due: ${d.dueDate}) - Project: ${d.project}`)
-                .join('\n');
               
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title: `⏰ Upcoming Deadlines - ${new Date().toLocaleDateString()}`,
-                body: `The following items have deadlines within the next 3 days:\n\n${body}`,
-                labels: ['deadline-alert']
-              });
+              // Filter for Work Log and Progress reports
+              const targetProjects = projectsResponse.data.filter(p => 
+                p.name === 'Work Log' || p.name === 'Progress reports'
+              );
               
-              console.log(`Created notification issue for ${upcomingDeadlines.length} upcoming deadlines`);
-            } else {
-              console.log('No upcoming deadlines found');
+              console.log(`Found ${targetProjects.length} target projects`);
+              
+              const upcomingDeadlines = [];
+              
+              for (const project of targetProjects) {
+                try {
+                  // Get columns for the project
+                  const columnsResponse = await github.rest.projects.listColumns({
+                    project_id: project.id
+                  });
+                  
+                  // Get all cards in all columns
+                  for (const column of columnsResponse.data) {
+                    try {
+                      const cardsResponse = await github.rest.projects.listCards({
+                        column_id: column.id,
+                        archived_state: 'not_archived'
+                      });
+                      
+                      for (const card of cardsResponse.data) {
+                        if (card.content_url) {
+                          try {
+                            // Get the issue details
+                            const issueUrl = card.content_url;
+                            const issueResponse = await github.request(`GET ${issueUrl}`);
+                            const issue = issueResponse.data;
+                            
+                            // Check if issue has a deadline in custom fields or due_date
+                            if (issue.due_date) {
+                              const dueDate = new Date(issue.due_date);
+                              if (dueDate >= today && dueDate <= threeDaysFromNow) {
+                                upcomingDeadlines.push({
+                                  title: issue.title,
+                                  url: issue.html_url,
+                                  dueDate: dueDate.toLocaleDateString(),
+                                  project: project.name
+                                });
+                              }
+                            }
+                          } catch (cardError) {
+                            console.warn(`Failed to get issue for card: ${cardError.message}`);
+                          }
+                        }
+                      }
+                    } catch (cardsError) {
+                      console.warn(`Failed to get cards for column: ${cardsError.message}`);
+                    }
+                  }
+                } catch (columnsError) {
+                  console.warn(`Failed to get columns for project ${project.name}: ${columnsError.message}`);
+                }
+              }
+              
+              // Create notification issue if deadlines found
+              if (upcomingDeadlines.length > 0) {
+                const body = upcomingDeadlines
+                  .map(d => `- [${d.title}](${d.url}) (Due: ${d.dueDate}) - Project: ${d.project}`)
+                  .join('\n');
+                
+                await github.rest.issues.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title: `⏰ Upcoming Deadlines - ${new Date().toLocaleDateString()}`,
+                  body: `The following items have deadlines within the next 3 days:\n\n${body}`,
+                  labels: ['deadline-alert']
+                });
+                
+                console.log(`Created notification issue for ${upcomingDeadlines.length} upcoming deadlines`);
+              } else {
+                console.log('No upcoming deadlines found');
+              }
+            } catch (error) {
+              console.error('Workflow failed:', error.message);
+              core.setFailed(`Workflow failed: ${error.message}`);
             }
