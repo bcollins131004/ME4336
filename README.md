@@ -61,6 +61,9 @@ I am a third year mechatronic engineering student in University of Limerick (See
 #### Due End Week 13 (4th May): 
 - [ ] [Submit Work Log 12](https://github.com/bcollins131004/ME4336/issues/13)
 
+Click  [here](https://github.com/users/bcollins131004/projects/3) for a more detailed view of the task_list.
+
+
 ## Overview of Repo
 
 | Project | Purpose | Link |
