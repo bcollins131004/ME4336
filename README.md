@@ -63,7 +63,7 @@ I am a third year mechatronic engineering student in University of Limerick (See
 
 
 
-Click  [here](https://github.com/bcollins131004/ME4336/issues) for a more detailed view of the tasklist.
+Click  [here](https://github.com/bcollins131004/ME4336/issues/21) for a more detailed view of the tasklist.
 
 
 
