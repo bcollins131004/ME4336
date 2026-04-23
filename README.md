@@ -52,7 +52,7 @@ I am a third year mechatronic engineering student in University of Limerick (See
 - [x] Online Profile - Task 8   
    
 #### Due End Week 11 (20th Apr): 
-- [ ] [Submit Work Log 10](https://github.com/bcollins131004/ME4336/issues/11)   
+- [x] [Submit Work Log 10](https://github.com/bcollins131004/ME4336/issues/11)   
    
 #### Due End Week 12 (27th Apr): 
 - [ ] [Submit Work Log 11](https://github.com/bcollins131004/ME4336/issues/12)
