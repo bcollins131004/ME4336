@@ -74,8 +74,7 @@ Click  [here](https://github.com/bcollins131004/ME4336/issues/21) for a more det
 | Work Logs | Providing Work logs for every work week | [Work Logs Project Page](https://github.com/users/bcollins131004/projects/3) |
 | Progress Reports | Progress reports uploaded every 2 weeks | [Progress Reports Project Page](https://github.com/users/bcollins131004/projects/4) |
 | Automated Plant Watering System | Full Repository for automated plant watering system project | [Automated Plant Pot Watering System Repository Page](https://github.com/bcollins131004/Automatic_Plant_Watering_System.git) |
-   
-I have also added in an action on the site to email alerts to me when a task is due within 3 days.
+|Task Alert System|Automated Script alerting me when tasks are due in 3 days |[Deadline Notification Script Action](https://github.com/bcollins131004/ME4336/actions/workflows/Automated_Email_Alert.yml)|
 
 ## Placement Experience Overview
 
