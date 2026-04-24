@@ -44,3 +44,6 @@ food items should also be considered, preventing further growth of prices.
 Irish students should continue their effort to lobby universities and call for lower grocery prices. 
 Immediate intervention is required by these institutions before undergraduates are forced into 
 extreme circumstances.
+
+
+[Return to ReadMe](Read_Me.md)
