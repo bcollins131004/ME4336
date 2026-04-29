@@ -1,14 +1,6 @@
 ### PERSONAL DETAILS
 Name:								Brendan Collins
 
-Address:	Santiago, Rathkip, Ballina, Mayo, Ireland
-
-Telephone Number:						+353 083-8710118
-
-Date of Birth:							13/10/2004
-
-E-Mail Address:						brendancollins246@gmail.com
-
 
 ### SKILLS AND QUALITIES
 I am a very hard-working individual with a wide-ranging skillset, I pick up new skills very quickly and enjoy learning. I am a good listener and understand instructions very well. I am mature and enjoy responsibility and am a natural leader. I am excellent at working in teams and dealing with customers. 
